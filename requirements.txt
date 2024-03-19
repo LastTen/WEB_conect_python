@@ -1,0 +1,13 @@
+astroid==3.1.0
+autopep8==2.0.4
+colorama==0.4.6
+dill==0.3.8
+distlib==0.3.8
+filelock==3.13.1
+isort==5.13.2
+mccabe==0.7.0
+platformdirs==4.2.0
+pycodestyle==2.11.1
+pylint==3.1.0
+tomlkit==0.12.4
+virtualenv==20.25.1

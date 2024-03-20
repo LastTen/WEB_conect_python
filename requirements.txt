@@ -1,3 +1,5 @@
+# requirements.txt
+
 astroid==3.1.0
 autopep8==2.0.4
 bidict==0.23.1
@@ -14,6 +16,7 @@ mccabe==0.7.0
 platformdirs==4.2.0
 pycodestyle==2.11.1
 pylint==3.1.0
+python-dotenv==1.0.1
 python-engineio==4.9.0
 python-socketio==5.11.1
 requests==2.31.0

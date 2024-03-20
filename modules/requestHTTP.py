@@ -1,13 +1,16 @@
 import http.client
+import os
+from dotenv import load_dotenv
 
-url = 'example.com'
-path = '/api'
-data = 'key=value'
+
+url = os.getenv("URL")
+path = "/api"
+data = "key=value"
 
 conn = http.client.HTTPConnection(url)
-headers = {'Content-type': 'application/x-www-form-urlencoded'}
+headers = {"Content-type": "application/x-www-form-urlencoded"}
 
-conn.request('POST', path, data, headers)
+conn.request("POST", path, data, headers)
 response = conn.getresponse()
 
 print(response.status)
